@@ -1,0 +1,26 @@
+{
+  "name": "platzem",
+  "version": "0.1.0",
+  "description": "Traductor platzem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turnkeytitan/platzem.git"
+  },
+  "keywords": [
+    "PLATZI",
+    "PLATZEM",
+    "javascript",
+    "js",
+    "modules"
+  ],
+  "author": "Samuel Sanchez <xxsamuelsanchezx@gmail.com> (https://twitter.com/xturnkeytitan)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turnkeytitan/platzem/issues"
+  },
+  "homepage": "https://github.com/turnkeytitan/platzem#readme"
+}
