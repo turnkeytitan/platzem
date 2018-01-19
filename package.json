@@ -2,9 +2,9 @@
   "name": "platzem",
   "version": "0.1.0",
   "description": "Traductor platzem",
-  "main": "index.js",
+  "main": "dist/src/platzem.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/platzem.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/turnkeytitan/platzem/issues"
   },
-  "homepage": "https://github.com/turnkeytitan/platzem#readme"
+  "homepage": "https://github.com/turnkeytitan/platzem#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
 }
