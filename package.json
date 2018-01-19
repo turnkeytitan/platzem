@@ -4,7 +4,8 @@
   "description": "Traductor platzem",
   "main": "dist/src/platzem.js",
   "scripts": {
-    "build": "babel src/platzem.js -d dist"
+    "build": "babel src/platzem.js -d dist",
+	"test": "mocha"
   },
   "repository": {
     "type": "git",
